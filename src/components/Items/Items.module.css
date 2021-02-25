@@ -1,0 +1,16 @@
+.List {
+  display: block;
+  height: 84vh;
+  width: 100%;
+  padding-top: 110px;
+  padding-right: 40px;
+  margin: 0;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 699px) {
+  .List {
+    height: 100vh;
+  }
+}

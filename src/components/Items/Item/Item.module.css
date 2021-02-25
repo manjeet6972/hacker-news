@@ -1,0 +1,33 @@
+.Item {
+  width: 100%;
+  border: 1px solid #eeeeee;
+  background-color: #f6f6ef;
+  padding: 1px 15px 0px;
+  padding-right: 2000px;
+}
+
+.ItemFavorite {
+  width: 100%;
+  border: 1px solid #eeeeee;
+  background-color: #c4c4c4;
+  padding: 1px 15px 0px;
+}
+
+.Subtitles {
+  font-size: 80%;
+  color: grey;
+}
+
+.Link {
+  text-decoration: none;
+  color: grey;
+}
+
+.Link:hover {
+  text-decoration: underline dotted;
+}
+
+.Title {
+  text-decoration: none;
+  color: black;
+}

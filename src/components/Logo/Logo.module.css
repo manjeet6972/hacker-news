@@ -1,0 +1,29 @@
+.Logo {
+  display: flex;
+  margin: 7px;
+  cursor: pointer;
+}
+
+.Logo img {
+  height: 45px;
+}
+
+div.Title {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin: 1px 1px 1px 10px;
+}
+
+.Search,
+.Hacker {
+  margin: 0;
+  font-size: 17px;
+}
+
+@media (max-width: 600px) {
+  .Search,
+  .Hacker {
+    display: none;
+  }
+}
